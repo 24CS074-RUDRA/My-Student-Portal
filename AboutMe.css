@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* This is Gradient + Background */
+body {
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(to right, rgba(30,144,255,0.7), rgba(245,175,25,0.7)),
+    url('charusat\ logo.png') center center / cover no-repeat fixed;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #eee;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #34495e;
+  padding: 15px;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
+}
+
+.about-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-photo img {
+  border-radius: 10px;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border: 3px solid #f39c12;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-content h2 {
+  color: #f39c12;
+  margin-bottom: 10px;
+}
+
+.about-content h3 {
+  margin-top: 20px;
+  color: #3498db;
+}
+
+.about-content p,
+.about-content ul {
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.about-content ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}

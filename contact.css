@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(to right, rgba(30,144,255,0.7), rgba(245,175,25,0.7)),
+    url('charusat\ logo.png') center center / cover no-repeat fixed;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color:   rgba(40, 76, 102, 0.799); /* blue box */
+  padding: 15px;
+  gap: 15px;
+  border-bottom: 3px solid white;
+}
+
+
+header nav ul li a {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
+}
+
+.contact-section {
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.contact-section h2 {
+  color: #1e90ff;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+
+.contact-item img {
+  width: 30px;
+  height: 30px;
+}
+
+.contact-item span, .contact-item a {
+  font-size: 1em;
+  color: #0a6300;
+  text-decoration: none;
+}
+
+form {
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0d6efd;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  padding: 15px;
+  margin-top: 40px;
+  color: white;
+}
+

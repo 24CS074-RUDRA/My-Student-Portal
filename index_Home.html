@@ -1,72 +1,60 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>StudentPortal</title>
-    <style>
-        h1 {
-  color: red;       /* use any color name */
-}
-        body {
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-
-        a {
-            text-decoration: none;
-            color: blue;
-            font-weight: bold;
-        }
-
-        a:hover {
-            color: darkblue;
-        }
-
-        img {
-            margin-top: 20px;
-            border: 2px solid #333;
-            border-radius: 10px;
-            /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
-            /* HOW CAN I MAKE AN UNDERLINE UNDER THE TITLE(MY HEADER) */
-            
-        }   
-        hr
-        {
-            width : 100%;
-            margin: 20px auto;
-            border: 1.30px solid #d0de19;
-
-        
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index_Home.html">Home</a></li>
+        <li><a href="fees.html">Fees</a></li>
+        <li><a href="timetable.html">Timetable</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="Attendence.html">Attendance</a></li>
+        <li><a href="Announcement.html">Announcement</a></li>
+        <li><a href="result.html">Result</a></li>
+        <li><a href="ContactMe.html">Contact Me</a></li>
+        <li><a href="About_Me.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <h1>WELCOME TO MY STUDENT PORTAL</h1>
-    <!-- <p>Below informations are my all the informations...</p> -->
-     <hr>
+  <section class="welcome">
+    <h2>Welcome to the Student Portal</h2>
+    <p>Access all your academic resources, announcements, fees details, and much more from one convenient place. Stay connected with the CHARUSAT community!</p>
+  </section>
+
+  <section class="news-ticker">
+    <marquee behavior="scroll" direction="left">
+      Welcome to the CHARUSAT Student Portal! | Check your exam timetable now | New events registration open!
+    </marquee>
+  </section>
+
+  <section class="announcements">
+    <h2>Latest Announcements</h2>
+    <ul>
+      <li>🗓️ Workshop on AI & ML - July 20, 2025</li>
+      <li>🎓 Midterm Exam Timetable Released - Check your portal</li>
+      <li>🏆 Sports Day Registration Open</li>
+    </ul>
+  </section>
+
+  <section class="quick-links">
+    <div class="card">Fees Details</div>
+    <div class="card">Timetable</div>
+    <div class="card">Results</div>
+    <div class="card">Profile</div>
+    <div class="card">Announcements</div>
+    <div class="card">Attendance</div>
+  </section>
+
+  <footer>
+    <p>© 2025 CHARUSAT Student Portal | Contact: studenthelp@charusat.edu.in</p>
+  </footer>
 </body>
-
-<a href="index_Home.html">Home</a>&emsp;
-<a href="ContactMe.html">Contact Me</a>&emsp;
-<a href="register.html">Register</a>&emsp;
-<a href="result.html">Result</a>&emsp;
-<a href="material.html">Material Of DSA</a>&emsp;
-<a href="About_Me.html">About Me</a>&emsp;
-<a href="timetable.html">Timetable</a>&emsp;
-<a href="fees.html">Fees structure</a>&emsp;
-<a href="certificate.html">My Certificates</a>&emsp;
-
-
-
-
-<br><br>
-
-<img src="ForWebsite.png" alt="google.com" width="100%">
-<br>
-
-</body>
-
 </html>

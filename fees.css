@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(to right, rgba(30,144,255,0.7), rgba(245,175,25,0.7)),
+    url('charusat\ logo.png') center center / cover no-repeat fixed;
+}
+
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(32, 79, 100, 0.886);
+  padding: 15px;
+  gap: 15px;
+}
+
+header nav ul li a {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 5px;
+}
+
+.fees {
+  max-width: 900px;
+  margin: 40px auto;
+  background-color: rgba(255,255,255,0.95);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.fees h2 {
+  color: #1e90ff;
+  margin-bottom: 15px;
+}
+
+.fees table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.fees table th,
+.fees table td {
+  border: 1px solid #999;
+  padding: 12px;
+  text-align: center;
+}
+
+.fees table th {
+  background-color: #1e90ff;
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}

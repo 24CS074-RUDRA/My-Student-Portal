@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Announcements | Student Portal</title>
+  <link rel="stylesheet" href="announcement.css" />
+  <style>
+    * { box-sizing: border-box; }
+    body {
+  font-family: Arial, sans-serif;
+  background:
+    linear-gradient(to right, rgba(30,144,255,0.7), rgba(245,175,25,0.7)),
+    url('charusat\ logo.png') center center / cover no-repeat fixed;
+}
+    header nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #1b1b1b;
+      padding: 15px;
+      gap: 15px;
+    }
+    header nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 10px;
+    }
+    header nav ul li a:hover {
+      background: rgba(255,255,255,0.2);
+      border-radius: 5px;
+    }
+    .announcement-section {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+    .announcement-section h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    .announcement-list {
+      list-style: none;
+      padding: 0;
+    }
+    .announcement-list li {
+      background: #f9f9f9;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-left: 6px solid #3498db;
+      border-radius: 6px;
+      position: relative;
+    }
+    .announcement-list li .date-badge {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background: #3498db;
+      color: white;
+      border-radius: 4px;
+      padding: 5px 10px;
+      font-size: 0.8em;
+    }
+    .announcement-list li:hover {
+      background: #e8f4ff;
+    }
+    footer {
+      text-align: center;
+      background: #111;
+      color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index_Home.html">Home</a></li>
+        <li><a href="fees.html">Fees</a></li>
+        <li><a href="timetable.html">Timetable</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="Attendence.html">Attendance</a></li>
+        <li><a href="Announcement.html">Announcement</a></li>
+        <li><a href="result.html">Result</a></li>
+        <li><a href="ContactMe.html">Contact Me</a></li>
+        <li><a href="About_Me.html">About Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="announcement-section">
+    <h2>Latest Announcements</h2>
+    <ul class="announcement-list">
+      <li>
+        Workshop on Artificial Intelligence and Machine Learning scheduled on <b>July 20, 2025</b>. Register on the portal!
+        <span class="date-badge">Jul 05</span>
+      </li>
+      <li>
+        Midterm Exam Timetable has been published. Check your student portal for details.
+        <span class="date-badge">Jul 01</span>
+      </li>
+      <li>
+        Sports Day registration is now open. Join us for a day of fun and sportsmanship!
+        <span class="date-badge">Jun 28</span>
+      </li>
+      <li>
+        Placement Preparation Bootcamp for final year students starts next month. Enroll soon!
+        <span class="date-badge">Jun 25</span>
+      </li>
+      <li>
+        Hostel allocation form is available for the next semester. Fill it before the due date.
+        <span class="date-badge">Jun 20</span>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 CHARUSAT Student Portal | Contact: studenthelp@charusat.edu.in</p>
+  </footer>
+</body>
+</html>
